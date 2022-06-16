@@ -1,0 +1,69 @@
+body {
+  background-color: #ECECEE;
+  font-family: 'Apple SD Gothic Neo','맑은 고딕','Malgun Gothic','돋움',dotum,sans-serif;
+}
+
+.background {
+  max-width: 700px;
+  height: 100vh;
+  background-color: white;
+  margin: auto;
+  padding-top: 37px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.logo {
+  height: 58px;
+  display: block;
+  margin: 0 auto;
+}
+
+.login-another-way {
+  display: block;
+  align-self: flex-end;
+  text-decoration: none;
+  color: #333;
+}
+
+.login {
+  width: 418px;
+  height: 46px;
+}
+
+input {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 30px;
+  margin: 4px 0;
+  padding: 10px 44px 6px 14px;
+  box-sizing: border-box;
+  border-color: #767676;
+  border: solid #767676 1px;
+}
+
+input:focus {
+  background-color: #f6fbfe;
+  border: solid 1px;
+}
+
+#login-button {
+  height: 56px;
+  border: none;
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 18px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  line-height: 58px;
+  color: #fff;
+  background: #4c87ee;
+}
