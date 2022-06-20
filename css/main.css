@@ -100,12 +100,6 @@ input:focus {
   color: #d6d6d6;
 }
 
-.advertisement {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-}
-
 .advertisement img {
   height: 126px;
   width: 420px;
